@@ -9,6 +9,6 @@ task:
     - rspec --format json --out rspec.json
   always:
     artifacts:
-      path: "rspec/rspec.json"
+      path: rspec/rspec.json
       type: text/json
       format: rspec
